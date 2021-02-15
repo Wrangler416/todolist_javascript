@@ -1,0 +1,113 @@
+html {
+    background-image: url("notes.jpg"); 
+    height: 100%; 
+    background-position: center; 
+    background-size: cover; 
+}
+
+h1 {
+    text-align: center; 
+    font-family: 'Open Sans', sans-serif;    
+    color: darkorange; 
+    margin-right: 30px; 
+    margin-top: 40px; 
+    text-size-adjust: larger;
+}
+
+#form {
+    text-align: center;
+    margin-right: 30px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    margin-right: 40px; 
+    padding: 10px;
+}
+
+li:hover {
+
+    background: orange; 
+    border-style: solid; 
+    border-color: darkslategray;
+    border-radius: 10px; 
+}
+
+li {
+    list-style-type: none;
+    text-align: center;
+    color: black; 
+    font-family: 'Patrick Hand SC', cursive;
+    margin: 10px; 
+    text-size-adjust: 12px;
+}
+
+span {
+    display: inline-block;
+    margin: 10px; 
+    padding: 10px; 
+    background-color: darkslategray;
+    border-style: solid; 
+    border-radius: 10px; 
+    color: white;
+}
+
+.deleted {
+    color: white; 
+}
+
+#add {
+    display: inline-block;
+    background-color: darkorange;
+    border-style: solid;
+    border-color: darkslategrey;
+    border-radius: 20px; 
+    padding: 10px;
+    margin: 10px; 
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    
+}
+#category {
+    margin: 10px; 
+    border-radius: 20px;
+    border-style: solid;
+    border-color: darkslategrey
+}
+#task {
+    margin: 10px; 
+    border-radius: 20px;
+    border-style: solid;
+    border-color: darkslategrey;
+}
+
+@media screen and (max-width: 600px) { 
+
+html {
+    background-image: url("notes.jpg"); 
+    height: 100%;
+    width: 100%;
+    background-position: center; 
+    background-size: cover; 
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1 {
+    margin-top: 40px; 
+}
+
+#form {
+    display: inline-block;
+    text-align: center;
+    margin-right: 30px;
+    margin-top: 10px; 
+}
+
+}
